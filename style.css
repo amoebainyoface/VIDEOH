@@ -14,6 +14,7 @@
     height: 100%;
     width: 100%;
     display: none;
+    border: 100px white;
 }
 
 .popup-video-nyu iframe, .popup-video-ferrari iframe, .popup-video-desert iframe, .popup-video-barber iframe{
@@ -23,7 +24,7 @@
     width: 750px;
     object-fit: cover;
     /* display:none; */
-    border: 10px white;
+    border: 100px white;
     
 }
 
@@ -34,6 +35,7 @@
     cursor: pointer;
     font-size: 50px;
     color: white;
+    border: 100px white;
 }
 
 @media (max-width:768px){
@@ -56,9 +58,23 @@
 }
 
 
-/* .desert:hover image{
-    transform: scale(2);
-} */
+#desert:hover image {
+    cursor: pointer;
+
+}
+
+#nyu:hover image {
+    cursor: pointer;
+}
+
+#barber:hover image {
+    cursor: pointer;
+}
+
+#mosque:hover image {
+    cursor: pointer;
+}
+
 
 
 
